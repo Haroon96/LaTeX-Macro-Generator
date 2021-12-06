@@ -1,4 +1,4 @@
 from macrogen import update_macro
 
-update_macro("foo", "bar")
-update_macro("bar", 5)
+new_result_value = Math.random()
+update_macro('result_value', new_result_value)
