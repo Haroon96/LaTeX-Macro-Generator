@@ -9,8 +9,9 @@ Just call `update_macro()` in your code wherever you need to update a value and 
 ### Python code/notebook:
 ```
 from macrogen import update_macro
-...
-new_result_value = Math.random()
+from random import random
+
+new_result_value = random()
 update_macro('result_value', new_result_value)
 ```
 ### LATEX document:
