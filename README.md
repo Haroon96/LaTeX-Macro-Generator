@@ -12,10 +12,10 @@ from macrogen import update_macro
 from random import random
 
 new_result_value = random()
-update_macro('result_value', new_result_value)
+update_macro('resultvalue', new_result_value)
 ```
 ### LATEX document:
 ```
 \input{macros}
-In our results, we found that the value is \result_value{}.
+In our results, we found that the value is \resultvalue{}.
 ```
