@@ -1,4 +1,4 @@
-# latex-macro-generator
+# LaTeX-Macro-Generator
 
 Simple helper script that I wrote to help me automate updating numbers/variables in LATEX documents.
 It generates macros for variables using `\newcommand{}` in a `macros.tex` file that I include in my LATEX documents.
